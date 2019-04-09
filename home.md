@@ -3,4 +3,4 @@
 
 
 Link:
-[Link to Header](#new-page)
+[Link to Header](new-page)
