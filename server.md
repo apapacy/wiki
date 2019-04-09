@@ -105,7 +105,11 @@
 
 `service mongod start`
 
-2. Настройка **/etc/mongod.config**
+2. Автозагрузка mongo:
+
+`systemctl enable mongod.service`
+
+3. Настройка **/etc/mongod.config**
 
 
 ```yaml
