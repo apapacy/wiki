@@ -1,7 +1,7 @@
 <!-- TITLE: Базовая настройка сервера -->
 <!-- SUBTITLE: A quick summary of Server -->
 
-## Обновление до Ubuntu 18.04
+# Обновление до Ubuntu 18.04
 1. Обновление пакетов:
 ```text
 apt-get update && apt-get upgrade && apt-get dist-upgrade
@@ -25,7 +25,7 @@ do-release-upgrade -d
 
 
 
-## Установка NODE JS
+# Установка NODE JS
 1. Установка CURL (если не установлен):
 ```text
 apt-get install curl
@@ -48,14 +48,25 @@ apt-get install -y nodejs
 apt-get install -y build-essential
 ```
 
-## Установка GIT
+
+
+-----
+
+
+
+# Установка GIT
 
 
 ```text
 apt-get install git
 ```
 
-## Установка PM2
+
+
+-----
+
+
+# Установка PM2
 
 
 ```text
@@ -69,7 +80,13 @@ apt-get install git
 pm2 startup systemd
 ```
 
-## Установка MongoDB
+
+
+-----
+
+
+
+# Установка MongoDB
 
 Рассмотрена установка MongoDB 4.0. Официальная документация тут: 
 [https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#import-the-public-key-used-by-the-package-management-system](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#import-the-public-key-used-by-the-package-management-system){target='_blank'}
