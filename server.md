@@ -30,8 +30,17 @@ do-release-upgrade -d
 ```text
 apt-get install curl
 ```
-2. Установка актуальной версии NodeJS:
+2. Выбор актуальной версии NodeJS:
 ```text
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 ```
-Актуальная версия: [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall){target='_blank'}
+Актуальная версия: [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall){target="_blank"}
+
+3. Установка:
+
+
+
+```html
+apt-get install -y nodejs
+```
+
