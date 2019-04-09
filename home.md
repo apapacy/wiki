@@ -1,5 +1,5 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: Server Setup Wiki -->
+<!-- SUBTITLE: Enjoy RE-DELIVERY.RU -->
 
 
 Link:
