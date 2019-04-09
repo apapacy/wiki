@@ -1,4 +1,4 @@
-<!-- TITLE: Server -->
+<!-- TITLE: Настройка сервера -->
 <!-- SUBTITLE: A quick summary of Server -->
 
 # Обновление до Ubuntu 18.04
