@@ -13,4 +13,5 @@ apt-get update && apt-get upgrade && apt-get dist-upgrade
 apt-get autoremove
 ```
 
-3. 
+3. Перезагрузка (обязательно):
+
