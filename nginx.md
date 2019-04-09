@@ -6,7 +6,9 @@
 
 1. Установка веб-сервера Nginx:
 
-`apt update && apt install nginx`
+`apt update`
+
+`apt install nginx`
 
 2. Настройка файрвола:
 
