@@ -18,3 +18,15 @@ reboot
 ```text
 do-release-upgrade -d
 ```
+
+# Установка NODE JS
+1. Установка CURL (если не установлен):
+```text
+apt-get install curl
+```
+2. Установка актуальной версии NodeJS:
+```text
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+```
+Актуальная версия: https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+
