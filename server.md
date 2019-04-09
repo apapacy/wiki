@@ -100,6 +100,10 @@
 Готово!
 
 
+
+-----
+
+
 # Настройка MongoDB
 1. Запуск сервиса mongo:
 
@@ -122,6 +126,10 @@ security:
   authorization: 'enabled'
 ```
 
+
+-----
+
+
 # MongoDB: добавление admin
 1. Заходим в консоль MongoDB:
 
@@ -134,6 +142,10 @@ security:
 3. Создаем пользователя **admin:**
 
 `db.createUser({user:"admin", pwd:"PASSWORD", roles:[{role:"root", db:"admin"}]})`
+
+
+
+-----
 
 
 # MongoDB: добавление user
@@ -156,3 +168,8 @@ security:
 5. Создаем пользователя:
 
 `db.createUser({user:"USER", pwd:"PASSWORD", roles:[{role:"readWrite", db:"NEWBASE"}]})`
+
+
+
+-----
+
