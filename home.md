@@ -1,6 +1,4 @@
 <!-- TITLE: Server Setup Wiki -->
-<!-- SUBTITLE: Enjoy RE-DELIVERY.RU -->
 
-
-Link:
-[Link to Header](new-page)
+Запуск сервера:
+[Link to Header](server)
