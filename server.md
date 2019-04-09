@@ -173,3 +173,17 @@ security:
 
 -----
 
+
+# Установка Nginx
+
+1. Установка веб-сервера Nginx:
+
+`apt update && apt install nginx`
+
+2. Настройка файрвола:
+
+```text
+ufw allow 'Nginx HTTP'
+ufw allow 'Nginx HTTPS'
+ufw allow 'SSH'
+```
