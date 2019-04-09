@@ -104,3 +104,16 @@
 1. Запуск сервиса mongo:
 
 `service mongod start`
+
+2. Настройка mongo.config
+
+
+```yaml
+net:
+  port: 27017
+  bindIp: 0.0.0.0
+
+security:
+  authorization: 'enabled'
+```
+
