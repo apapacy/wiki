@@ -105,7 +105,7 @@
 
 `service mongod start`
 
-2. Настройка mongo.config
+2. Настройка **/etc/mongod.config**
 
 
 ```yaml
