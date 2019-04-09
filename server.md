@@ -111,7 +111,8 @@
 ```yaml
 net:
   port: 27017
-  bindIp: 0.0.0.0
+  bindIp: 127.0.0.1, ***serverIP***
+
 
 security:
   authorization: 'enabled'
