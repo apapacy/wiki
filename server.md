@@ -35,4 +35,4 @@ apt-get install curl
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 ```
 Актуальная версия: https://github.com/nodesource/distributions/blob/master/README.md#debinstall
-
+[Актуальная версия тут](https://github.com/nodesource/distributions/blob/master/README.md#debinstall){:target="_blank"}
