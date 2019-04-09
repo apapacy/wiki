@@ -19,6 +19,12 @@ reboot
 do-release-upgrade -d
 ```
 
+
+
+-----
+
+
+
 # Установка NODE JS
 1. Установка CURL (если не установлен):
 ```text
