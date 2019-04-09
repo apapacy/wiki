@@ -1,7 +1,7 @@
 <!-- TITLE: Let's Encrypt -->
 <!-- SUBTITLE: A quick summary of Lets Encrypt -->
 
-# Шаг 1 - Установка Certbot
+# Установка Certbot
 
 Сначала добавим репозиторий:
 
