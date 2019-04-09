@@ -12,8 +12,12 @@ apt-get autoremove
 ```
 3. Перезагрузка (обязательно):
 ```text
+reboot
+```
+4. Обновление до Ubuntu 18.04
+```text
 do-release-upgrade -d
 ```
-4. 
+
 
 
