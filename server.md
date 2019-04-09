@@ -118,3 +118,37 @@ security:
   authorization: 'enabled'
 ```
 
+# MongoDB: добавление admin
+1. Заходим в консоль MongoDB:
+
+`mongo` 
+
+2. Переключаемся на базу данных **admin:**
+
+`use admin`
+
+3. Создаем пользователя **admin:**
+
+`db.createUser({user:"admin", pwd:"PASSWORD", roles:[{role:"root", db:"admin"}]})`
+
+
+# MongoDB: добавление user
+1. Заходим в консоль MongoDB:
+
+`mongo` 
+
+2. Переключаемся на базу данных **admin:**
+
+`use admin`
+
+3. Авторизуемся:
+
+`db.auth("admin", "PASSWORD")`
+
+4. Переключаемся на новую базу данных:
+
+`use NEWBASE`
+
+5. Создаем пользователя:
+
+`db.createUser({user:"USER", pwd:"PASSWORD", roles:[{role:"readWrite", db:"NEWBASE"}]})`
