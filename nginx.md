@@ -13,6 +13,8 @@
 ```text
 ufw allow 'Nginx HTTP'
 ufw allow 'Nginx HTTPS'
+ufw allow http
+ufw allow https
 ufw allow ssh
 ```
 
