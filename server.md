@@ -34,13 +34,10 @@ apt-get install curl
 ```text
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 ```
-Актуальная версия: [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall){target="_blank"}
+Актуальная версия: [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) {target="_blank"}
 
 3. Установка:
-
-
-
-```html
+```text
 apt-get install -y nodejs
 ```
 
