@@ -2,7 +2,5 @@
 <!-- SUBTITLE: A quick summary of Home -->
 
 
+Link:
 
-# Header
-
-### <a name="head1234"></a>A Heading in this SO entry!
