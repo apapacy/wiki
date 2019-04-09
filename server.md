@@ -185,7 +185,7 @@ security:
 ```text
 ufw allow 'Nginx HTTP'
 ufw allow 'Nginx HTTPS'
-ufw allow 'SSH'
+ufw allow ssh
 ```
 
 3. Проверка статуса UFW:
