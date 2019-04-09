@@ -55,6 +55,7 @@ ufw allow ssh
 
 **/etc/nginx/sites-available/example.com**
 
+Дополнительно в **/etc/nginx/sites-enabled/** создать ссылки на файлы конфигурации в **sites-available**
 
 
 -----
