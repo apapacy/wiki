@@ -3,18 +3,25 @@
 
 # Обновление до Ubuntu 18.04
 1. Обновление пакетов:
+
 ```text
 apt-get update && apt-get upgrade && apt-get dist-upgrade
 ```
+
 2. Удаление мусора:
+
 ```text
 apt-get autoremove
 ```
+
 3. Перезагрузка (обязательно):
+
 ```text
 reboot
 ```
+
 4. Обновление до Ubuntu 18.04
+
 ```text
 do-release-upgrade -d
 ```
@@ -27,13 +34,17 @@ do-release-upgrade -d
 
 # Установка NODE JS
 1. Установка CURL (если не установлен):
+
 ```text
 apt-get install curl
 ```
+
 2. Выбор актуальной версии NodeJS:
+
 ```text
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 ```
+
 Актуальная версия: [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall){target="_blank"}
 
 3. Установка:
@@ -55,7 +66,6 @@ apt-get install -y build-essential
 
 
 # Установка GIT
-
 
 ```text
 apt-get install git
@@ -96,24 +106,29 @@ pm2 startup systemd
 1. Импортируем открытый ключ, используемый системой управления пакетами: 
 
 ```text
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 ```
 
 2. Создаем файл списка для установки:
 
 ```text
-echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 ```
 
 3. Перезагрузка пакетов для установки:
 
 ```text
-sudo apt-get update
+apt-get update
 ```
 
 4. Установка пакетов MongoDB:
 
 ```text
-sudo apt-get install -y mongodb-org
+apt-get install -y mongodb-org
 ```
 
+Готово!
+
+Настройка MongoDB!
+
+`sudo service mongod start`
