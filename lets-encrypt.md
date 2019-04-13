@@ -45,7 +45,7 @@
 
 ```json
 server {
-	server_name telegram.serdyukow.ml;
+	server_name telegram.ml;
 	location / {
 		access_log off;
 		proxy_pass http://localhost:5004/;
@@ -61,19 +61,19 @@ server {
 	}
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/telegram.serdyukow.ml/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/telegram.serdyukow.ml/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/telegram.ml/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/telegram.ml/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
 server {
-    if ($host = telegram.serdyukow.ml) {
+    if ($host = telegram.ml) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
 
-	server_name telegram.serdyukow.ml;
+	server_name telegram.ml;
 
     listen 80;
     return 404; # managed by Certbot
