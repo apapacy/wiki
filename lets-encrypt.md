@@ -30,6 +30,14 @@
 -----
 
 
+# Удаление домена
+
+`certbot delete --cert-name example.com`
+
+
+-----
+
+
 #  Проверка автоматического обновления сертификата
 
 `certbot renew --dry-run`
