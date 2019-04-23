@@ -1,7 +1,7 @@
 <!-- TITLE: Mongo Windows -->
 <!-- SUBTITLE: A quick summary of Mongo Windows -->
 
-# Header
+# Установка
 
 Инструкция от MongoDB:
 
