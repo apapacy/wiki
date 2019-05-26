@@ -90,7 +90,24 @@ server {
 }
 ```
 
+-----
+
 # Wild Certificate
+
+###  Ручной режим
+
+Получение Wild сертификата для вСервисе.рф
+
+`certbot certonly --manual -d *.xn--b1aaibo0cfe.xn--p1ai -d xn--b1aaibo0cfe.xn--p1ai --agree-tos --no-bootstrap --manual-public-ip-logging-ok --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory`
+
+Получение Wild сертификата для in-services.ru
+
+`certbot certonly --manual -d *.in-services.ru -d in-services.ru --agree-tos --no-bootstrap --manual-public-ip-logging-ok --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory`
+
+
+
+### Автоматический режим
+
 Для всервисе.рф:
 
 `sudo certbot --server https://acme-v02.api.letsencrypt.org/directory -d *.xn--b1aaibo0cfe.xn--p1ai --manual --preferred-challenges dns-01 certonly`
