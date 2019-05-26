@@ -89,3 +89,8 @@ server {
 
 }
 ```
+
+# Wild Certificate
+
+
+
