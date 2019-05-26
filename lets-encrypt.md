@@ -91,8 +91,15 @@ server {
 ```
 
 # Wild Certificate
+Для всервисе.рф:
 
 `sudo certbot --server https://acme-v02.api.letsencrypt.org/directory -d *.xn--b1aaibo0cfe.xn--p1ai --manual --preferred-challenges dns-01 certonly`
 
+Для in-services.ru:
+
 `sudo certbot --server https://acme-v02.api.letsencrypt.org/directory -d *.in-services.ru --manual --preferred-challenges dns-01 certonly`
 
+
+Перезапуск Nginx:
+
+`sudo /etc/init.d/nginx reload`
